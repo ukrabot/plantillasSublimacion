@@ -1,0 +1,19 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+.idea/
+.vscode/
+
+# Node / JS
+node_modules/
+.wrangler/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local environment
+.env
+.env.local

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es-CL" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¡Pago Confirmado! | SublimaPack Chile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body class="bg-[#0b0f19] text-slate-100 min-h-screen flex flex-col justify-between selection:bg-indigo-600 selection:text-white">
+
+  <!-- Header -->
+  <header class="glass border-b border-slate-800 py-4">
+    <div class="max-w-4xl mx-auto px-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="text-xl font-extrabold text-white">
+          Sublima<span class="text-indigo-400">Pack</span>
+        </span>
+      </a>
+      <a href="index.html" class="text-xs font-semibold text-slate-400 hover:text-white transition-colors">
+        ← Volver a la Tienda
+      </a>
+    </div>
+  </header>
+
+  <!-- Contenido Central -->
+  <main class="max-w-2xl mx-auto px-4 py-12 flex-1 flex flex-col items-center justify-center text-center">
+    
+    <div class="w-20 h-20 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 flex items-center justify-center mb-6 shadow-xl shadow-emerald-500/10 animate-bounce">
+      <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7" />
+      </svg>
+    </div>
+
+    <span class="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-2">¡Transacción Exitosa!</span>
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">
+      ¡Gracias por tu compra!
+    </h1>
+    <p class="text-sm text-slate-300 max-w-lg mb-8 leading-relaxed">
+      Tu pago ha sido procesado correctamente a través de Flow.cl / Webpay. Tus plantillas en formato PSD y PNG a 300 DPI ya están listas para su descarga.
+    </p>
+
+    <!-- Tarjeta de Pedido y Enlace de Descarga -->
+    <div class="glass-card rounded-2xl p-6 w-full text-left mb-8 border border-slate-700/80">
+      <div class="flex items-center justify-between border-b border-slate-700/60 pb-3 mb-4">
+        <span class="text-xs text-slate-400">Estado del Pedido:</span>
+        <span class="text-xs font-bold text-emerald-400 bg-emerald-950/80 px-2.5 py-1 rounded-full border border-emerald-700/50">
+          Pagado y Aprobado ✓
+        </span>
+      </div>
+
+      <div id="order-details-box" class="space-y-2 text-xs text-slate-300 mb-6">
+        <p>• Los archivos están disponibles en Google Drive con acceso directo e ilimitado.</p>
+        <p>• Recuerda guardar una copia de respaldo en tu computadora o disco externo.</p>
+      </div>
+
+      <a 
+        id="drive-access-btn"
+        href="https://drive.google.com/drive/folders/1GOZkPFn5nrTMnCOyHqfo8Z53ba_uCdj9" 
+        target="_blank"
+        rel="noopener"
+        class="w-full py-4 px-6 rounded-xl bg-gradient-to-r from-indigo-600 via-indigo-500 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-extrabold text-sm transition-all shadow-xl shadow-indigo-600/30 flex items-center justify-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+        </svg>
+        <span>Acceder a la Carpeta de Descargas en Google Drive</span>
+      </a>
+    </div>
+
+    <!-- Soporte post-venta -->
+    <div class="text-xs text-slate-400">
+      ¿Necesitas ayuda con algún archivo o tipografía? 
+      <a href="https://wa.me/56912345678" target="_blank" class="text-emerald-400 font-semibold hover:underline">
+        Escríbenos por WhatsApp
+      </a>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-6 border-t border-slate-800/80 text-center text-xs text-slate-500">
+    SublimaPack Chile • Soporte técnico ukrabot.cl
+  </footer>
+
+  <script>
+    // Recuperar detalles de la orden si existen
+    document.addEventListener("DOMContentLoaded", () => {
+      try {
+        const order = JSON.parse(localStorage.getItem("pending_order") || "null");
+        if (order) {
+          const box = document.getElementById("order-details-box");
+          box.innerHTML = `
+            <div class="flex justify-between py-1"><span class="text-slate-400">N° Orden:</span> <span class="font-bold text-white">${order.orderId || 'SUB-OK'}</span></div>
+            <div class="flex justify-between py-1"><span class="text-slate-400">Cliente:</span> <span class="text-white">${order.customerName || 'Cliente'}</span></div>
+            <div class="flex justify-between py-1"><span class="text-slate-400">Email:</span> <span class="text-white">${order.email || ''}</span></div>
+            <div class="flex justify-between py-1"><span class="text-slate-400">Monto:</span> <span class="text-emerald-400 font-bold">$${(order.amount || 0).toLocaleString("es-CL")} CLP</span></div>
+          `;
+          // Limpiar carrito tras compra exitosa
+          localStorage.removeItem("sublima_cart");
+        }
+      } catch (e) {
+        console.warn(e);
+      }
+    });
+  </script>
+</body>
+</html>

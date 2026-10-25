@@ -1,0 +1,1335 @@
+{
+  "site": {
+    "name": "SublimaPack Chile",
+    "brand": "Ukrabot Sublimación",
+    "tagline": "Plantillas y Diseños Premium para Sublimación y DTF",
+    "currency": "CLP",
+    "currencySymbol": "$",
+    "supportEmail": "contacto@ukrabot.cl",
+    "whatsapp": "+56912345678",
+    "driveUrl": "https://drive.google.com/drive/folders/1GOZkPFn5nrTMnCOyHqfo8Z53ba_uCdj9",
+    "guarantee": "Archivos 100% probados a 300 DPI - Descarga instantánea tras confirmación de pago"
+  },
+  "categories": [
+    {
+      "id": "todos",
+      "name": "Todos los Packs",
+      "count": 37,
+      "icon": "grid"
+    },
+    {
+      "id": "Tazas y Tazones",
+      "name": "Tazas y Tazones",
+      "count": 8,
+      "icon": "coffee"
+    },
+    {
+      "id": "Poleras y Textiles",
+      "name": "Poleras y Textiles",
+      "count": 4,
+      "icon": "shirt"
+    },
+    {
+      "id": "Especiales y Festividades",
+      "name": "Especiales y Festividades",
+      "count": 10,
+      "icon": "heart"
+    },
+    {
+      "id": "Series, Cine y Anime",
+      "name": "Series, Cine y Anime",
+      "count": 9,
+      "icon": "film"
+    },
+    {
+      "id": "Gaming y Música",
+      "name": "Gaming y Música",
+      "count": 5,
+      "icon": "gamepad-2"
+    },
+    {
+      "id": "Escolar y Varios",
+      "name": "Escolar y Varios",
+      "count": 1,
+      "icon": "tag"
+    }
+  ],
+  "products": [
+    {
+      "id": "pack-052-profesiones",
+      "code": "#052",
+      "title": "Plantillas Tazones - Profesiones Modernas Editables",
+      "category": "Tazas y Tazones",
+      "target": "Tazones 11oz / 15oz",
+      "price": 2990,
+      "originalPrice": 5990,
+      "rating": 4.9,
+      "reviewsCount": 48,
+      "badge": "Más Vendido",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI (20x9 cm)",
+      "description": "Colección completa con más de 25 profesiones: Medicina, Enfermería, Abogacía, Ingeniería, Pedagogía, Veterinaria, Odontología y más. Incluye capas editables en Photoshop para personalizar nombre del profesional.",
+      "features": [
+        "Archivos PSD 100% editables por capas",
+        "PNG transparentes listos para imprimir",
+        "Mockups de alta resolución para promocionar en redes",
+        "Tipografías utilizadas incluidas"
+      ],
+      "tags": [
+        "profesiones",
+        "tazas",
+        "tazones",
+        "psd",
+        "medicina",
+        "abogados",
+        "profesores"
+      ],
+      "accent": "from-blue-600 to-indigo-800",
+      "icon": "briefcase"
+    },
+    {
+      "id": "pack-053-etiquetas-escolares",
+      "code": "#053",
+      "title": "Mega Pack Etiquetas Escolares Editables",
+      "category": "Escolar y Varios",
+      "target": "Stickers, Cuadernos y Botellas",
+      "price": 2490,
+      "originalPrice": 4990,
+      "rating": 4.8,
+      "reviewsCount": 35,
+      "badge": "Temporada Escolar",
+      "formats": [
+        "PSD",
+        "PNG",
+        "PDF",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI (A4 y formatos corte)",
+      "description": "Kits imprimibles de etiquetas para cuadernos, lápices, libros, botellas térmicas y uniformes. Múltiples personajes infantiles y estilos minimalistas.",
+      "features": [
+        "Plantillas en hoja A4 listas para imprimir y troquelar",
+        "Textos editables en PSD y PowerPoint/Illustrator",
+        "Plantillas para lápices, cuadernos y rotuladores",
+        "Incluye guía rápida de impresión"
+      ],
+      "tags": [
+        "escolar",
+        "etiquetas",
+        "colegio",
+        "stickers",
+        "editables",
+        "cuadernos"
+      ],
+      "accent": "from-amber-500 to-orange-600",
+      "icon": "tag"
+    },
+    {
+      "id": "pack-054-futbol-chile-retro",
+      "code": "#054",
+      "title": "+70 Plantillas Fútbol Chileno 2019 / Épocas Retro",
+      "category": "Tazas y Tazones",
+      "target": "Tazones 11oz",
+      "price": 3490,
+      "originalPrice": 6990,
+      "rating": 5.0,
+      "reviewsCount": 64,
+      "badge": "Favorito Clientes",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Más de 70 diseños dedicados a la pasión futbolera nacional: Colo-Colo, Universidad de Chile, Universidad Católica, Cobreloa, Wanderers y Selección Chilena bicampeona.",
+      "features": [
+        "+70 diseños listos para sublimar",
+        "Camisetas históricas y cánticos populares",
+        "Archivos PNG en alta resolución 300 DPI",
+        "Mockups realistas para publicar en Instagram y Facebook"
+      ],
+      "tags": [
+        "futbol",
+        "chile",
+        "colo-colo",
+        "udechile",
+        "ucatolica",
+        "tazones",
+        "deportes"
+      ],
+      "accent": "from-red-600 to-red-900",
+      "icon": "trophy"
+    },
+    {
+      "id": "pack-055-poleras-frases-cristianas",
+      "code": "#055",
+      "title": "Vectores Vinilo y DTF - Frases Cristianas para Poleras",
+      "category": "Poleras y Textiles",
+      "target": "Poleras, Polerones y Bolsas",
+      "price": 2990,
+      "originalPrice": 5490,
+      "rating": 4.9,
+      "reviewsCount": 29,
+      "badge": "Vectores Limpios",
+      "formats": [
+        "SVG",
+        "AI",
+        "EPS",
+        "PNG"
+      ],
+      "resolution": "Vectorial escalable sin pérdida",
+      "description": "Diseños tipográficos y gráficos de fe, esperanza y devoción, optimizados para plotter de corte (vinilo textil) y estampado directo DTF o serigrafía.",
+      "features": [
+        "Trazos 100% limpios listos para corte en plotter",
+        "Archivos vectoriales SVG, AI y EPS",
+        "PNG con fondo transparente 4000x4000 px",
+        "Diseños monocromáticos y multicolores"
+      ],
+      "tags": [
+        "poleras",
+        "frases",
+        "cristianas",
+        "vinilo",
+        "dtf",
+        "vectores",
+        "textil"
+      ],
+      "accent": "from-emerald-600 to-teal-800",
+      "icon": "shirt"
+    },
+    {
+      "id": "pack-056-avengers-marvel",
+      "code": "#056",
+      "title": "Colección Avengers & Marvel - Sublimación Tazones",
+      "category": "Series, Cine y Anime",
+      "target": "Tazones 11oz / Tazas Mágicas",
+      "price": 3290,
+      "originalPrice": 5990,
+      "rating": 5.0,
+      "reviewsCount": 52,
+      "badge": "Éxito en Ventas",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (21x9.5 cm)",
+      "description": "Impactantes diseños de Iron Man, Capitán América, Thor, Hulk, Spider-Man, Doctor Strange y Thanos con efectos de destello cósmico.",
+      "features": [
+        "Especialmente vistosos en tazas mágicas termosensibles",
+        "Archivos PSD multicapa con fuentes",
+        "Mockups promocionales 3D",
+        "Fondos de alto impacto visual"
+      ],
+      "tags": [
+        "marvel",
+        "avengers",
+        "ironman",
+        "spiderman",
+        "tazas",
+        "cine"
+      ],
+      "accent": "from-purple-600 to-indigo-900",
+      "icon": "shield"
+    },
+    {
+      "id": "pack-057-paw-patrol",
+      "code": "#057",
+      "title": "Plantillas Infantiles Paw Patrol - Tazas y Cumpleaños",
+      "category": "Tazas y Tazones",
+      "target": "Tazas Infantiles de Cerámica y Plástico",
+      "price": 2490,
+      "originalPrice": 4490,
+      "rating": 4.8,
+      "reviewsCount": 41,
+      "badge": "Infantil Top",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI (20x9 cm)",
+      "description": "Los cachorros favoritos de los niños: Chase, Marshall, Skye, Rubble y Rocky. Espacio para fotografía y nombre del cumpleañero personalizable.",
+      "features": [
+        "Marcos con foto editable para festejados",
+        "Colores vibrantes aptos para polímero infantil",
+        "Formatos PSD con capas organizadas",
+        "Incluye mockups para catálogo"
+      ],
+      "tags": [
+        "paw-patrol",
+        "infantil",
+        "ninos",
+        "tazas",
+        "cumpleanos",
+        "animados"
+      ],
+      "accent": "from-sky-500 to-blue-700",
+      "icon": "sparkles"
+    },
+    {
+      "id": "pack-058-razas-perritos",
+      "code": "#058",
+      "title": "Colección Pet Lovers - Razas de Perritos Ilustradas",
+      "category": "Tazas y Tazones",
+      "target": "Tazas, Chopps y Cuadros",
+      "price": 2990,
+      "originalPrice": 5490,
+      "rating": 4.9,
+      "reviewsCount": 38,
+      "badge": "Tendencia",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (21x9.5 cm)",
+      "description": "Hermosas ilustraciones en acuarela de razas caninas populares: Bulldog Francés, Golden Retriever, Poodle, Pug, Pastor Alemán, Salchicha, Beagle y más.",
+      "features": [
+        "+30 ilustraciones de razas con frases cariñosas",
+        "Capas de texto editables para colocar nombre de la mascota",
+        "Archivos PNG con fondo transparente y composición completa",
+        "Mockups elegantes"
+      ],
+      "tags": [
+        "perros",
+        "mascotas",
+        "petlovers",
+        "tazas",
+        "acuarela",
+        "animales"
+      ],
+      "accent": "from-amber-600 to-yellow-800",
+      "icon": "heart"
+    },
+    {
+      "id": "pack-059-poleras-superheroes",
+      "code": "#059",
+      "title": "Pack Gráficos Superhéroes para Poleras & DTF",
+      "category": "Poleras y Textiles",
+      "target": "Poleras Adulto / Polerones",
+      "price": 3490,
+      "originalPrice": 6490,
+      "rating": 4.9,
+      "reviewsCount": 44,
+      "badge": "Alta Definición",
+      "formats": [
+        "PNG",
+        "PSD",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (3500x4500 px)",
+      "description": "Artes listos para estampar en pecho y espalda. Diseños estilizados de cómics clásicos, estilo grunge, vintage y vector pop art.",
+      "features": [
+        "Resolución optimizada para impresión textil DTF y sublimación",
+        "Fondos transparentes listos para prendas oscuras o claras",
+        "Mockups frontales sobre poleras negra y blanca"
+      ],
+      "tags": [
+        "superheroes",
+        "poleras",
+        "dtf",
+        "textil",
+        "comic",
+        "estampado"
+      ],
+      "accent": "from-cyan-600 to-blue-800",
+      "icon": "shirt"
+    },
+    {
+      "id": "pack-060-poleras-superheroes-kids",
+      "code": "#060",
+      "title": "Pack Superhéroes Kids - Poleras Infantiles y Bebé",
+      "category": "Poleras y Textiles",
+      "target": "Poleras Niño / Bodys Bebé",
+      "price": 2790,
+      "originalPrice": 4990,
+      "rating": 4.7,
+      "reviewsCount": 26,
+      "badge": "Edición Kids",
+      "formats": [
+        "PNG",
+        "PSD",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (3000x3500 px)",
+      "description": "Versiones chibi y tiernas de superhéroes ideales para bodys de bebé, poleras de niños y juegos de cumpleaños.",
+      "features": [
+        "Ilustraciones estilo kawaii / chibi de gran colorido",
+        "Mockups sobre camisetas infantiles",
+        "Archivos editables para agregar edad y nombre"
+      ],
+      "tags": [
+        "kids",
+        "ninos",
+        "bebe",
+        "superheroes",
+        "poleras",
+        "chibi"
+      ],
+      "accent": "from-pink-500 to-rose-700",
+      "icon": "smile"
+    },
+    {
+      "id": "pack-061-signos-del-zodiaco",
+      "code": "#061",
+      "title": "Colección Zodiaco & Astrología Mística - Tazones",
+      "category": "Tazas y Tazones",
+      "target": "Tazones 11oz / Tazas Negras",
+      "price": 2990,
+      "originalPrice": 5290,
+      "rating": 4.8,
+      "reviewsCount": 33,
+      "badge": "Diseño Exclusivo",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Los 12 signos zodiacales ilustrados con constelaciones doradas, mandalas y rasgos de personalidad. Muy buscado para regalos de cumpleaños.",
+      "features": [
+        "12 diseños completos (Aries a Piscis)",
+        "Efecto foil dorado y fondos galácticos",
+        "Textos de cualidades de cada signo",
+        "Mockups profesionales"
+      ],
+      "tags": [
+        "zodiaco",
+        "astrologia",
+        "constelaciones",
+        "horoscopo",
+        "tazas"
+      ],
+      "accent": "from-violet-600 to-purple-900",
+      "icon": "moon"
+    },
+    {
+      "id": "pack-062-the-walking-dead",
+      "code": "#062",
+      "title": "Pack The Walking Dead - Sublimación Tazas y Chopps",
+      "category": "Series, Cine y Anime",
+      "target": "Tazones 11oz y Chopp Cervecero",
+      "price": 2790,
+      "originalPrice": 4990,
+      "rating": 4.8,
+      "reviewsCount": 31,
+      "badge": "Culto Zombie",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (21x9 cm)",
+      "description": "Daryl Dixon, Rick Grimes, Negan con Lucille y frases épicas de la mítica serie de zombies.",
+      "features": [
+        "Estilo desgastado y grunge de alta fidelidad",
+        "Formatos adaptables a tazas normales y tarros cerveceros",
+        "Mockups incluidos"
+      ],
+      "tags": [
+        "walking-dead",
+        "zombies",
+        "daryl",
+        "negan",
+        "series",
+        "tazas"
+      ],
+      "accent": "from-zinc-700 to-stone-900",
+      "icon": "skull"
+    },
+    {
+      "id": "pack-063-dia-del-padre-tazas",
+      "code": "#063",
+      "title": "Pack Día del Padre - Diseños Emotivos y Divertidos",
+      "category": "Especiales y Festividades",
+      "target": "Tazones 11oz / Tazas Mágicas",
+      "price": 3490,
+      "originalPrice": 6490,
+      "rating": 5.0,
+      "reviewsCount": 78,
+      "badge": "Top Temporada",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "La colección más vendida de junio: 'Mejor Papá del Mundo', 'Papá Gamer', 'Papá Parrillero', 'Batería de Papá' y marcos para fotos con sus hijos.",
+      "features": [
+        "+35 plantillas listas para imprimir",
+        "Archivos PSD con fotos y nombres editables",
+        "Plantillas divertidas y emocionales",
+        "Catálogo mockup para preventa"
+      ],
+      "tags": [
+        "dia-del-padre",
+        "papa",
+        "tazas",
+        "regalos",
+        "familia",
+        "editables"
+      ],
+      "accent": "from-blue-700 to-slate-900",
+      "icon": "award"
+    },
+    {
+      "id": "pack-064-poleras-dia-del-padre",
+      "code": "#064",
+      "title": "Vectores Poleras Dúo Padre e Hijo / Día del Padre",
+      "category": "Poleras y Textiles",
+      "target": "Sets de Poleras Dúo",
+      "price": 3290,
+      "originalPrice": 5990,
+      "rating": 4.9,
+      "reviewsCount": 51,
+      "badge": "Dúos Populares",
+      "formats": [
+        "AI",
+        "SVG",
+        "PNG"
+      ],
+      "resolution": "Vectorial alta definición",
+      "description": "Diseños complementarios para papá e hijo/hija ('Control 1 / Control 2', 'Batería 100% / Batería 1%', 'Original / Remix').",
+      "features": [
+        "Diseños combinados para 2 prendas",
+        "Vectores limpios para corte en vinilo o impresión DTF",
+        "Mockups dobles para mostrar el set completo"
+      ],
+      "tags": [
+        "poleras",
+        "duo",
+        "padre-hijo",
+        "dia-del-padre",
+        "vinilo",
+        "textil"
+      ],
+      "accent": "from-cyan-700 to-blue-900",
+      "icon": "users"
+    },
+    {
+      "id": "pack-065-cumpleanos-festivo",
+      "code": "#065",
+      "title": "Plantillas Cumpleaños - Celebraciones y Años Dorados",
+      "category": "Especiales y Festividades",
+      "target": "Tazas, Cuadros y Recuerdos",
+      "price": 2790,
+      "originalPrice": 4990,
+      "rating": 4.7,
+      "reviewsCount": 33,
+      "badge": "Todo el Año",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Plantillas para cumpleaños: 'Vintage 1984 Edición Limitada', 'Nivel 30 Desbloqueado', 'Mis Dulces 18' y plantillas infantiles con globos y confeti.",
+      "features": [
+        "Números y años editables en Photoshop",
+        "Diseños elegantes en negro y dorado",
+        "Marcos con fotografía editable"
+      ],
+      "tags": [
+        "cumpleanos",
+        "aniversario",
+        "edicion-limitada",
+        "tazas",
+        "recuerdos"
+      ],
+      "accent": "from-yellow-600 to-amber-700",
+      "icon": "gift"
+    },
+    {
+      "id": "pack-066-dia-de-la-madre-premium",
+      "code": "#066",
+      "title": "Especial Día de la Madre - Rosas, Acuarelas y Collage",
+      "category": "Especiales y Festividades",
+      "target": "Tazas 11oz y Cojines",
+      "price": 3490,
+      "originalPrice": 6990,
+      "rating": 5.0,
+      "reviewsCount": 89,
+      "badge": "Más Vendido Anual",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI (21x9.5 cm y 40x40 cm)",
+      "description": "Nuestra colección insignia para el Día de la Mamá. Frases tiernas, collages multifoto familiares, fondos florales y tipografías caligráficas prémium.",
+      "features": [
+        "+40 diseños para tazas y cojines sublimables",
+        "Collages editables para 3, 4 y 6 fotografías",
+        "Mockups listos para campañas de preventa en redes sociales"
+      ],
+      "tags": [
+        "dia-de-la-madre",
+        "mama",
+        "cojines",
+        "tazas",
+        "rosas",
+        "collage"
+      ],
+      "accent": "from-rose-500 to-pink-700",
+      "icon": "heart"
+    },
+    {
+      "id": "pack-067-caballeros-del-zodiaco",
+      "code": "#067",
+      "title": "Colección Saint Seiya - Caballeros del Zodiaco",
+      "category": "Series, Cine y Anime",
+      "target": "Tazones 11oz / Tazas Mágicas",
+      "price": 3290,
+      "originalPrice": 5990,
+      "rating": 5.0,
+      "reviewsCount": 57,
+      "badge": "Anime Nostálgico",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Seiya, Shiryu, Hyoga, Shun, Ikki y los 12 Caballeros Dorados con sus armaduras sagradas y cosmos desatado.",
+      "features": [
+        "Fondos de cosmos en alta resolución",
+        "Colores vibrantes ideales para tazas brillantes",
+        "Archivos PSD con capas separadas de personaje y logo"
+      ],
+      "tags": [
+        "saint-seiya",
+        "caballeros-del-zodiaco",
+        "anime",
+        "retro",
+        "tazas"
+      ],
+      "accent": "from-yellow-500 to-orange-700",
+      "icon": "zap"
+    },
+    {
+      "id": "pack-068-princesas-pets",
+      "code": "#068",
+      "title": "Pack Disney Princess Palace Pets - Infantil",
+      "category": "Tazas y Tazones",
+      "target": "Tazas Cerámica y Plástico Infantil",
+      "price": 2490,
+      "originalPrice": 4590,
+      "rating": 4.8,
+      "reviewsCount": 27,
+      "badge": "Mágico Niñas",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9 cm)",
+      "description": "Las tiernas mascotas de las princesas de Disney con detalles de brillo, tiaras y marcos personalizados para regalos y sorpresas.",
+      "features": [
+        "Ilustraciones en alta resolución de Palace Pets",
+        "Espacio para nombre en tipografía de fantasía",
+        "Colores pastel listos para transferir"
+      ],
+      "tags": [
+        "disney",
+        "princesas",
+        "pets",
+        "infantil",
+        "ninas",
+        "tazas"
+      ],
+      "accent": "from-fuchsia-500 to-pink-600",
+      "icon": "crown"
+    },
+    {
+      "id": "pack-069-madres-collage-editables",
+      "code": "#069",
+      "title": "Plantillas Collage Familiar para Mamá - 100% PSD",
+      "category": "Especiales y Festividades",
+      "target": "Tazones y Cuadros MDF",
+      "price": 2990,
+      "originalPrice": 5490,
+      "rating": 4.9,
+      "reviewsCount": 43,
+      "badge": "Personalizable",
+      "formats": [
+        "PSD",
+        "Mockups",
+        "Guía"
+      ],
+      "resolution": "300 DPI con Smart Objects",
+      "description": "Plantillas inteligentes con 'Objetos Inteligentes' (Smart Objects) en Photoshop: arrastras la foto del cliente y se ajusta sola con sombras y bordes perfectos.",
+      "features": [
+        "Objetos inteligentes de inserción en 1 clic",
+        "Espacio para 2 a 5 fotos familiares",
+        "Guía paso a paso en PDF incluida"
+      ],
+      "tags": [
+        "collage",
+        "mama",
+        "dia-de-la-madre",
+        "smart-objects",
+        "psd",
+        "fotos"
+      ],
+      "accent": "from-rose-600 to-purple-700",
+      "icon": "image"
+    },
+    {
+      "id": "pack-070-conejo-pascua",
+      "code": "#070",
+      "title": "Pack Pascua de Resurrección - Bolsitas de Dulces y Tazas",
+      "category": "Especiales y Festividades",
+      "target": "Bolsas de Tela, Tazas y Cajitas",
+      "price": 2490,
+      "originalPrice": 4690,
+      "rating": 4.7,
+      "reviewsCount": 22,
+      "badge": "Temporada Pascua",
+      "formats": [
+        "PSD",
+        "PNG",
+        "PDF"
+      ],
+      "resolution": "300 DPI (Formatos múltiples)",
+      "description": "Diseños adorables de conejitos de Pascua, huevitos decorados y canastas de chocolate para sublimar morralitos y tazas con dulces.",
+      "features": [
+        "Formatos adaptables a bolsas de tela y saquitos",
+        "Etiquetas colgantes de regalo incluidas",
+        "Archivos listos para imprimir"
+      ],
+      "tags": [
+        "pascua",
+        "conejos",
+        "dulces",
+        "bolsas",
+        "tazas",
+        "infantil"
+      ],
+      "accent": "from-teal-400 to-emerald-600",
+      "icon": "egg"
+    },
+    {
+      "id": "pack-071-duendes-magicos",
+      "code": "#071",
+      "title": "Pack #2 Tazas Duendes Mágicos Colección",
+      "category": "Tazas y Tazones",
+      "target": "Tazones 11oz y Tazones Mágicos",
+      "price": 2990,
+      "originalPrice": 5290,
+      "rating": 4.9,
+      "reviewsCount": 50,
+      "badge": "Navidad & Magia",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Los personajes navideños más pedidos en Chile: Colorito, Goldy, Clara, Menta y sus amigos en aventuras invernales con nieve y cartas al Viejito Pascuero.",
+      "features": [
+        "Diseños con fondos nevados y efectos de purpurina",
+        "Espacio para personalizar nombre del niño",
+        "Archivos PSD con capas independientes"
+      ],
+      "tags": [
+        "duendes-magicos",
+        "navidad",
+        "nieve",
+        "tazas",
+        "chile",
+        "infantil"
+      ],
+      "accent": "from-red-600 to-green-700",
+      "icon": "sparkles"
+    },
+    {
+      "id": "pack-082-dia-de-la-madre-floral",
+      "code": "#082",
+      "title": "Pack Día de la Madre Floral & Acuarelas Finas",
+      "category": "Especiales y Festividades",
+      "target": "Tazas 11oz y Chopps",
+      "price": 2990,
+      "originalPrice": 5490,
+      "rating": 4.9,
+      "reviewsCount": 47,
+      "badge": "Elegancia Pura",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (21x9.5 cm)",
+      "description": "Bouquets botánicos, coronas florales en tonos pastel y frases de agradecimiento infinito a la mamá y abuelita.",
+      "features": [
+        "Ilustraciones botánicas de alta resolución",
+        "Tipografías enlazadas de trazo suave",
+        "PNG con fondos transparentes y fondos con textura de lino"
+      ],
+      "tags": [
+        "madre",
+        "mama",
+        "flores",
+        "acuarela",
+        "tazas",
+        "elegante"
+      ],
+      "accent": "from-pink-600 to-purple-800",
+      "icon": "heart"
+    },
+    {
+      "id": "pack-084-personajes-infantiles",
+      "code": "#084",
+      "title": "Mega Colección Personajes Animados - 50+ Diseños",
+      "category": "Series, Cine y Anime",
+      "target": "Tazas y Botellas de Agua",
+      "price": 3690,
+      "originalPrice": 6990,
+      "rating": 4.9,
+      "reviewsCount": 63,
+      "badge": "Super Pack",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI",
+      "description": "Mario Bros, Sonic, Bluey, Toy Story, Frozen, Encanto, Minions y Bob Esponja en composiciones listas para estampar en tazas y botellas escolares.",
+      "features": [
+        "+50 diseños de las franquicias más vistas",
+        "Colores calibrados para prensas térmicas",
+        "Mockups individuales para catálogo"
+      ],
+      "tags": [
+        "animados",
+        "infantil",
+        "bluey",
+        "mario",
+        "sonic",
+        "tazas",
+        "botellas"
+      ],
+      "accent": "from-sky-500 to-indigo-600",
+      "icon": "film"
+    },
+    {
+      "id": "pack-085-dia-del-hombre-trabajador",
+      "code": "#085",
+      "title": "Pack Día del Hombre / Día del Trabajador",
+      "category": "Especiales y Festividades",
+      "target": "Tazones 11oz, Chopps y Botellas",
+      "price": 2790,
+      "originalPrice": 4990,
+      "rating": 4.8,
+      "reviewsCount": 28,
+      "badge": "Reconocimiento",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Diseños dedicados al esfuerzo cotidiano: chopps cerveceros, herramientas, café matutino y frases de reconocimiento laboral.",
+      "features": [
+        "Diseños masculinos con texturas de madera y metal",
+        "Textos editables en PSD",
+        "Mockups fotográficos de tarros de cerveza"
+      ],
+      "tags": [
+        "dia-del-hombre",
+        "trabajador",
+        "chopp",
+        "cerveza",
+        "tazas"
+      ],
+      "accent": "from-amber-800 to-stone-900",
+      "icon": "coffee"
+    },
+    {
+      "id": "pack-086-aqui-toma-el-mejor-papa",
+      "code": "#086",
+      "title": "Colección 'Aquí Toma el Mejor Papá del Mundo'",
+      "category": "Especiales y Festividades",
+      "target": "Tazones 11oz y Chopps",
+      "price": 2690,
+      "originalPrice": 4990,
+      "rating": 4.9,
+      "reviewsCount": 42,
+      "badge": "Diseño Tradicional",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (21x9.5 cm)",
+      "description": "Diseños de estilo tipográfico vintage con coronas, bigotes, herramientas y diplomas simbólicos al mejor padre, abuelo, padrastro y tío.",
+      "features": [
+        "Variantes para Papá, Abuelo y Padrino",
+        "Estilo chalkboard (pizarra) y retro",
+        "100% personalizables en PSD"
+      ],
+      "tags": [
+        "papa",
+        "abuelo",
+        "dia-del-padre",
+        "tazas",
+        "regalos"
+      ],
+      "accent": "from-amber-700 to-stone-800",
+      "icon": "coffee"
+    },
+    {
+      "id": "pack-087-capitana-marvel-heroinas",
+      "code": "#087",
+      "title": "Pack Capitana Marvel & Heroínas Cósmicas",
+      "category": "Series, Cine y Anime",
+      "target": "Tazones 11oz y Poleras",
+      "price": 2990,
+      "originalPrice": 5490,
+      "rating": 4.8,
+      "reviewsCount": 34,
+      "badge": "Poder Femenino",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Carol Danvers, Scarlet Witch, Black Widow y Gamora con efectos de energía binaria, estrellas y destellos.",
+      "features": [
+        "Colores vivos y contrastes dorados/rojos",
+        "Archivos preparados para sublimación de tazas y telas",
+        "Mockups incluidos"
+      ],
+      "tags": [
+        "capitana-marvel",
+        "heroínas",
+        "marvel",
+        "tazas",
+        "cine"
+      ],
+      "accent": "from-red-600 to-yellow-500",
+      "icon": "shield"
+    },
+    {
+      "id": "pack-088-madre-eres-mi-vida",
+      "code": "#088",
+      "title": "Pack Especial 'Madre Eres Mi Vida' - Amor Incondicional",
+      "category": "Especiales y Festividades",
+      "target": "Tazones 11oz y Cojines",
+      "price": 2890,
+      "originalPrice": 5290,
+      "rating": 5.0,
+      "reviewsCount": 56,
+      "badge": "Emotivo",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Mensajes emotivos de agradecimiento profundo, corazones con relieve dorado, mariposas y espacios para dedicatorias personalizadas.",
+      "features": [
+        "Frases poéticas y dedicatorias listas",
+        "Marcos fotográficos para retratos madre e hijos",
+        "Mockups realistas para redes sociales"
+      ],
+      "tags": [
+        "madre",
+        "mama",
+        "amor",
+        "cojines",
+        "tazas",
+        "emotivo"
+      ],
+      "accent": "from-pink-500 to-rose-800",
+      "icon": "heart"
+    },
+    {
+      "id": "pack-089-motivacion-fitness-gym",
+      "code": "#089",
+      "title": "Pack Motivación & Fitness - Tazas y Shakers",
+      "category": "Tazas y Tazones",
+      "target": "Tazas, Shakers y Botellas Deportivas",
+      "price": 2490,
+      "originalPrice": 4790,
+      "rating": 4.8,
+      "reviewsCount": 30,
+      "badge": "Estilo Urbano",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Vectores"
+      ],
+      "resolution": "300 DPI",
+      "description": "Frases de superación, culturismo, running, crossfit y vida saludable para motivar las mañanas de café y entrenamientos.",
+      "features": [
+        "Diseños en blanco y negro y colores neón",
+        "Formatos curvos para shakers y botellas",
+        "Textos editables con tipografías fuertes"
+      ],
+      "tags": [
+        "fitness",
+        "gym",
+        "motivacion",
+        "running",
+        "deportes",
+        "tazas"
+      ],
+      "accent": "from-lime-600 to-zinc-900",
+      "icon": "activity"
+    },
+    {
+      "id": "pack-090-dia-de-la-madre-frases",
+      "code": "#090",
+      "title": "Pack Letras & Frases Ilustradas Día de la Madre",
+      "category": "Especiales y Festividades",
+      "target": "Tazas 11oz, Delantales y Bolsas",
+      "price": 2890,
+      "originalPrice": 5190,
+      "rating": 4.9,
+      "reviewsCount": 39,
+      "badge": "Lettering Puro",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI",
+      "description": "Lettering a mano alzada digitalizado, frases simpáticas ('Mamá en pausa', 'Café para mamá superheroína') y flores silvestres.",
+      "features": [
+        "Composiciones tipográficas originales",
+        "Variantes con fondo claro y fondo oscuro",
+        "Formatos listos para sublimar diversos soportes"
+      ],
+      "tags": [
+        "mama",
+        "lettering",
+        "frases",
+        "delantales",
+        "tazas"
+      ],
+      "accent": "from-purple-500 to-rose-600",
+      "icon": "type"
+    },
+    {
+      "id": "pack-105-star-wars-galactica",
+      "code": "#105",
+      "title": "Colección Galáctica Star Wars & The Mandalorian",
+      "category": "Series, Cine y Anime",
+      "target": "Tazones 11oz y Poleras",
+      "price": 3490,
+      "originalPrice": 6490,
+      "rating": 5.0,
+      "reviewsCount": 71,
+      "badge": "Edición Épica",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (21x9.5 cm)",
+      "description": "Darth Vader, Baby Yoda (Grogu), Din Djarin, Boba Fett y batallas con sables de luz en diseños oscuros y estelares.",
+      "features": [
+        "Gráficos de alta resolución con estrellas y nebulosas",
+        "Mockups con tazas con asa negra e interior de color",
+        "Archivos PSD ordenados"
+      ],
+      "tags": [
+        "star-wars",
+        "mandalorian",
+        "grogu",
+        "darth-vader",
+        "cine",
+        "tazas"
+      ],
+      "accent": "from-neutral-900 to-red-950",
+      "icon": "compass"
+    },
+    {
+      "id": "pack-106-supercampeones-tsubasa",
+      "code": "#106",
+      "title": "Colección Retro SuperCampeones (Captain Tsubasa)",
+      "category": "Series, Cine y Anime",
+      "target": "Tazones 11oz",
+      "price": 2990,
+      "originalPrice": 5490,
+      "rating": 4.9,
+      "reviewsCount": 46,
+      "badge": "Anime Clásico",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Oliver Atom, Benji Price, Tom Misaki, Steve Hyuga y el tiro del tigre en escenas dinámicas de fútbol manga.",
+      "features": [
+        "Arte vectorial coloreado en alta definición",
+        "Logos de Niupi / New Team y Franco Canadiense",
+        "Mockups listos para compartir"
+      ],
+      "tags": [
+        "supercampeones",
+        "tsubasa",
+        "anime",
+        "futbol",
+        "oliver-atom",
+        "tazas"
+      ],
+      "accent": "from-blue-600 to-red-600",
+      "icon": "circle"
+    },
+    {
+      "id": "pack-107-series-de-culto",
+      "code": "#107",
+      "title": "Pack Series de Culto: Harry Potter, Peaky Blinders & Friends",
+      "category": "Series, Cine y Anime",
+      "target": "Tazones 11oz y Chopps",
+      "price": 3690,
+      "originalPrice": 6990,
+      "rating": 5.0,
+      "reviewsCount": 82,
+      "badge": "Mega Éxito",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI",
+      "description": "Las 4 casas de Hogwarts (Gryffindor, Slytherin...), el estilo sobrio de los Peaky Blinders con Thomas Shelby, y el icónico café Central Perk de Friends.",
+      "features": [
+        "3 franquicias top en un solo pack",
+        "Efectos vintage y tipografías originales",
+        "+30 diseños exclusivos para sublimación"
+      ],
+      "tags": [
+        "harry-potter",
+        "peaky-blinders",
+        "friends",
+        "series",
+        "hogwarts",
+        "tazas"
+      ],
+      "accent": "from-amber-800 to-slate-900",
+      "icon": "tv"
+    },
+    {
+      "id": "pack-108-street-fighter-retro",
+      "code": "#108",
+      "title": "Colección Arcade Street Fighter II Retro Gaming",
+      "category": "Gaming y Música",
+      "target": "Tazones 11oz y Mousepads",
+      "price": 2990,
+      "originalPrice": 5290,
+      "rating": 4.9,
+      "reviewsCount": 39,
+      "badge": "Arcade Retro",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (20x9.5 cm)",
+      "description": "Ryu, Ken, Chun-Li, Guile, Blanka y los escenarios pixel art del clásico de peleas de Capcom de los 90s.",
+      "features": [
+        "Barra de vida 'KO' y pantalla de 'VS'",
+        "Capas para personalizar luchador y nombre del jugador",
+        "Mockups con tazas gamer"
+      ],
+      "tags": [
+        "street-fighter",
+        "arcade",
+        "retro",
+        "capcom",
+        "gaming",
+        "tazas"
+      ],
+      "accent": "from-red-600 to-yellow-600",
+      "icon": "gamepad-2"
+    },
+    {
+      "id": "pack-109-pokemon-kanto",
+      "code": "#109",
+      "title": "Colección Pokémon Kanto Primera Generación",
+      "category": "Gaming y Música",
+      "target": "Tazones 11oz y Botellas",
+      "price": 3490,
+      "originalPrice": 6290,
+      "rating": 5.0,
+      "reviewsCount": 75,
+      "badge": "Favorito Gamer",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (21x9.5 cm)",
+      "description": "Pikachu, Charizard, Blastoise, Venusaur, Gengar, Mewtwo y Eevee con fondos elementales de fuego, agua, planta y psíquico.",
+      "features": [
+        "+25 diseños listos para tazas y botellas",
+        "Gráficos limpios y colores vivos",
+        "Mockups 3D listos para tu tienda"
+      ],
+      "tags": [
+        "pokemon",
+        "pikachu",
+        "charizard",
+        "gaming",
+        "nintendo",
+        "tazas"
+      ],
+      "accent": "from-yellow-400 to-red-500",
+      "icon": "target"
+    },
+    {
+      "id": "pack-110-final-fantasy-rpg",
+      "code": "#110",
+      "title": "Colección Final Fantasy & Épica RPG Fantasy",
+      "category": "Gaming y Música",
+      "target": "Tazones 11oz y Mousepads XXL",
+      "price": 2990,
+      "originalPrice": 5490,
+      "rating": 4.8,
+      "reviewsCount": 31,
+      "badge": "Arte Fantasía",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI",
+      "description": "Cloud Strife, Sephiroth, Chocobos, Moguris y los emblemas icónicos de la saga Final Fantasy VII y clásicos.",
+      "features": [
+        "Ilustraciones de alta definición",
+        "Mockups sobre tazas oscuras y mousepads",
+        "Archivos PSD por capas"
+      ],
+      "tags": [
+        "final-fantasy",
+        "cloud",
+        "sephiroth",
+        "rpg",
+        "gaming",
+        "tazas"
+      ],
+      "accent": "from-cyan-800 to-slate-950",
+      "icon": "sword"
+    },
+    {
+      "id": "pack-111-videojuegos-clasicos-modernos",
+      "code": "#111",
+      "title": "Pack Gaming Multiplataforma: Minecraft, GTA & Fortnite",
+      "category": "Gaming y Música",
+      "target": "Tazones 11oz, Cojines y Mousepads",
+      "price": 3490,
+      "originalPrice": 6490,
+      "rating": 4.9,
+      "reviewsCount": 58,
+      "badge": "Top Juvenil",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups",
+        "Fuentes"
+      ],
+      "resolution": "300 DPI",
+      "description": "Diseños para fanáticos de PlayStation, Xbox, Minecraft, Grand Theft Auto, Call of Duty, Fortnite y Free Fire con textos de 'Gamer Zone' personalizables.",
+      "features": [
+        "Textos con nickname gamer editable en PSD",
+        "Efectos neón RGB gamer",
+        "Mockups profesionales"
+      ],
+      "tags": [
+        "gaming",
+        "minecraft",
+        "fortnite",
+        "gta",
+        "playstation",
+        "xbox",
+        "tazas"
+      ],
+      "accent": "from-emerald-600 to-green-950",
+      "icon": "gamepad"
+    },
+    {
+      "id": "pack-112-superheroes-villanos-dc-marvel",
+      "code": "#112",
+      "title": "Pack Épico Superhéroes vs Villanos DC y Marvel",
+      "category": "Series, Cine y Anime",
+      "target": "Tazones 11oz, Chopps y Cuadros",
+      "price": 3490,
+      "originalPrice": 6490,
+      "rating": 5.0,
+      "reviewsCount": 68,
+      "badge": "Doble Editorial",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI",
+      "description": "Batman, Joker, Superman, Flash, Deadpool, Wolverine, Venom y Carnage en composiciones oscuras, salpicaduras y contrastes de impacto.",
+      "features": [
+        "Enfrentamientos duales héroe vs villano",
+        "Ideal para sublimación en tazones y cerámicos",
+        "Mockups en alta resolución"
+      ],
+      "tags": [
+        "batman",
+        "joker",
+        "deadpool",
+        "marvel",
+        "dc",
+        "superheroes",
+        "tazas"
+      ],
+      "accent": "from-slate-900 to-purple-950",
+      "icon": "mask"
+    },
+    {
+      "id": "pack-113-rock-leyendas-musica",
+      "code": "#113",
+      "title": "Colección Leyendas del Rock & Metal Clásico",
+      "category": "Gaming y Música",
+      "target": "Tazones 11oz, Chopps y Poleras",
+      "price": 3290,
+      "originalPrice": 5990,
+      "rating": 5.0,
+      "reviewsCount": 84,
+      "badge": "Rockero Inmortal",
+      "formats": [
+        "PSD",
+        "PNG",
+        "Mockups"
+      ],
+      "resolution": "300 DPI (21x9.5 cm)",
+      "description": "Tributos a Queen, AC/DC, Guns N Roses, Metallica, Pink Floyd, Iron Maiden, Nirvana y Kiss con guitarras eléctricas y portadas míticas.",
+      "features": [
+        "Estilo vinilo, grunge y letras de canciones",
+        "Diseños ajustables a tarros de cerveza y tazas normales",
+        "Mockups realistas"
+      ],
+      "tags": [
+        "rock",
+        "musica",
+        "queen",
+        "acdc",
+        "metallica",
+        "guns-n-roses",
+        "tazas"
+      ],
+      "accent": "from-zinc-900 to-red-950",
+      "icon": "music"
+    }
+  ]
+}

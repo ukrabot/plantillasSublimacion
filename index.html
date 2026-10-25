@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es-CL" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SublimaPack Chile | Plantillas y Diseños para Sublimación</title>
+  <meta name="description" content="Venta de plantillas y diseños editables para sublimar tazas, poleras, cojines y regalos personalizados. Archivos PSD, PNG 300 DPI y mockups listos para vender. Pago seguro con Flow y Webpay." />
+  
+  <!-- Favicon y Metadatos OpenGraph -->
+  <meta property="og:title" content="SublimaPack Chile - Plantillas para Sublimar" />
+  <meta property="og:description" content="Colecciones premium para sublimación de tazas, poleras y recuerdos. Descarga inmediata con Webpay y Flow.cl." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0f19" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              900: '#312e81',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Estilos Personalizados -->
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body class="bg-[#0b0f19] text-slate-100 min-h-screen flex flex-col selection:bg-indigo-600 selection:text-white">
+
+  <!-- 1. Barra de Anuncio Superior -->
+  <aside aria-label="Anuncio promocional" class="bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-600 text-white text-xs py-2 px-4 text-center font-medium shadow-sm relative z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2">
+      <span class="inline-block animate-bounce">⚡</span>
+      <span><strong>DESCARGA INMEDIATA:</strong> Archivos probados a 300 DPI (PSD, PNG, Fuentes y Mockups). Pago seguro con Webpay Plus y Flow.cl 🇨🇱</span>
+    </div>
+  </aside>
+
+  <!-- 2. Header / Navbar -->
+  <header class="sticky top-0 z-40 glass border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Logo y Marca -->
+      <a href="index.html" class="flex items-center gap-3 shrink-0 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-indigo-600 to-pink-500 flex items-center justify-center shadow-lg shadow-indigo-600/30 group-hover:scale-105 transition-transform">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+          </svg>
+        </div>
+        <div>
+          <span class="text-xl font-extrabold tracking-tight text-white block">
+            Sublima<span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-500">Pack</span>
+          </span>
+          <span class="text-[10px] tracking-wider text-slate-400 font-semibold uppercase block -mt-1">
+            Plantillas Chile
+          </span>
+        </div>
+      </a>
+
+      <!-- Buscador Rápido de Escritorio -->
+      <div class="hidden md:flex flex-1 max-w-md mx-6">
+        <div class="relative w-full">
+          <input 
+            type="text" 
+            id="search-input"
+            placeholder="Buscar por temática (ej: Fútbol, Avengers, Mamá, #052)..." 
+            class="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl py-2.5 pl-10 pr-4 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all shadow-inner"
+          />
+          <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Acciones de Cabecera: WhatsApp y Carrito -->
+      <div class="flex items-center gap-3">
+        <a 
+          href="https://wa.me/56912345678" 
+          target="_blank" 
+          rel="noopener"
+          class="hidden sm:flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 border border-slate-700 text-xs font-semibold text-slate-300 transition-all">
+          <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.043.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/>
+          </svg>
+          <span>Soporte</span>
+        </a>
+
+        <!-- Botón Carrito de Compras -->
+        <button 
+          id="open-cart-btn"
+          class="relative p-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold transition-all shadow-lg shadow-indigo-600/30 flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+          </svg>
+          <span class="hidden sm:inline text-xs">Carrito</span>
+          <!-- Badge Contador -->
+          <span 
+            id="cart-counter" 
+            class="hidden text-[10px] font-extrabold bg-rose-500 text-white w-5 h-5 rounded-full flex items-center justify-center -ml-1">
+            0
+          </span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Buscador Móvil -->
+    <div class="md:hidden px-4 pb-3">
+      <input 
+        type="text" 
+        id="mobile-search-input"
+        placeholder="Buscar plantillas (#052, fútbol, series)..." 
+        class="w-full bg-slate-900 border border-slate-700 rounded-xl py-2 px-3 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-indigo-500"
+      />
+    </div>
+  </header>
+
+  <!-- 3. Hero Principal -->
+  <section class="relative overflow-hidden py-14 lg:py-20 border-b border-slate-800/80 bg-gradient-to-b from-[#0e1628] to-[#0b0f19]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      
+      <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold bg-indigo-500/10 text-indigo-300 border border-indigo-500/20 mb-6 badge-pulse">
+        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+        Catálogo 2026 Actualizado — Diseños Probados para Estampado
+      </span>
+
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-tight mb-6">
+        Plantillas y Diseños Editables para <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-300 to-pink-500">Sublimación y DTF</span>
+      </h1>
+
+      <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
+        Colecciones completas para tazas, poleras y regalos personalizados. Archivos PSD por capas, PNG a 300 DPI, fuentes y mockups publicitarios listos para publicar y vender.
+      </p>
+
+      <!-- Puntos Clave de Confianza -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
+        <div class="glass-card p-4 rounded-xl">
+          <div class="text-indigo-400 font-extrabold text-xl mb-1">⚡ Inmediato</div>
+          <div class="text-xs text-slate-300">Descarga directa tras confirmación de pago.</div>
+        </div>
+        <div class="glass-card p-4 rounded-xl">
+          <div class="text-pink-400 font-extrabold text-xl mb-1">🎯 300 DPI</div>
+          <div class="text-xs text-slate-300">Resolución nítida sin pixelado garantizada.</div>
+        </div>
+        <div class="glass-card p-4 rounded-xl">
+          <div class="text-amber-400 font-extrabold text-xl mb-1">🎨 100% PSD</div>
+          <div class="text-xs text-slate-300">Capas y textos editables con tipografías.</div>
+        </div>
+        <div class="glass-card p-4 rounded-xl">
+          <div class="text-emerald-400 font-extrabold text-xl mb-1">🔒 Webpay / Flow</div>
+          <div class="text-xs text-slate-300">Paga con CuentaRUT, Débito o Crédito seguro.</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. Barra de Categorías y Filtros -->
+  <section class="sticky top-20 z-30 glass border-b border-slate-800 py-3">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4 overflow-x-auto no-scrollbar">
+      
+      <!-- Botones de Categorías -->
+      <nav id="categories-nav" aria-label="Categorías de productos" class="flex items-center gap-2 shrink-0 py-1">
+        <!-- Generado dinámicamente por app.js -->
+      </nav>
+
+      <!-- Selector de Ordenamiento -->
+      <div class="shrink-0 flex items-center gap-2">
+        <label for="sort-select" class="text-xs text-slate-400 hidden sm:inline">Ordenar:</label>
+        <select 
+          id="sort-select"
+          class="bg-slate-800 border border-slate-700 text-xs text-slate-200 rounded-xl px-3 py-2 focus:outline-none focus:border-indigo-500 cursor-pointer">
+          <option value="destacados">Más Populares</option>
+          <option value="precio-bajo">Precio: Menor a Mayor</option>
+          <option value="precio-alto">Precio: Mayor a Menor</option>
+          <option value="calificacion">Mejor Calificados</option>
+          <option value="nombre">Nombre A - Z</option>
+        </select>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. Catálogo Principal de Productos -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
+    <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <!-- Tarjetas renderizadas dinámicamente por app.js -->
+      <div class="col-span-full py-20 text-center text-slate-500">
+        <svg class="animate-spin h-8 w-8 mx-auto text-indigo-500 mb-4" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+        </svg>
+        <p class="text-sm">Cargando catálogo de plantillas...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- 6. Sección de Ventajas y Garantías -->
+  <section class="border-t border-slate-800/80 bg-slate-900/40 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-3">
+          ¿Por qué elegir nuestras plantillas de sublimación?
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-400">
+          Diseñadas exclusivamente para talleres y emprendedores del rubro del estampado en Chile.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="glass-card p-6 rounded-2xl">
+          <div class="w-12 h-12 rounded-xl bg-indigo-600/20 border border-indigo-500/30 flex items-center justify-center text-indigo-400 mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Mockups Publicitarios Listos</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            No pierdas tiempo diseñando fotos para redes sociales. Cada pack incluye imágenes mockup realistas de alta calidad para publicar en tu tienda o Instagram y preventer sin estampar primero.
+          </p>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl">
+          <div class="w-12 h-12 rounded-xl bg-pink-600/20 border border-pink-500/30 flex items-center justify-center text-pink-400 mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">100% Editables en PSD y Photopea</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Todos los textos, fotos y nombres son personalizables. Si no tienes Photoshop instalado, puedes abrirlos y editarlos completamente gratis desde tu navegador en Photopea.com.
+          </p>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl">
+          <div class="w-12 h-12 rounded-xl bg-emerald-600/20 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Pago Seguro con Flow.cl</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Paga en pesos chilenos a través de Webpay Plus con tu tarjeta de débito, crédito o CuentaRUT de BancoEstado. Transacciones seguras con cifrado bancario.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. Preguntas Frecuentes (FAQ) -->
+  <section class="py-16 border-t border-slate-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center mb-10">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-2">Preguntas Frecuentes</h2>
+        <p class="text-xs sm:text-sm text-slate-400">Todo lo que necesitas saber antes y después de comprar.</p>
+      </div>
+
+      <div class="space-y-4">
+        
+        <details class="glass-card rounded-xl p-4 group cursor-pointer">
+          <summary class="font-bold text-sm text-white flex items-center justify-between list-none">
+            <span>¿Cómo y cuándo recibo los archivos descargables?</span>
+            <span class="text-indigo-400 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed border-t border-slate-700/60 pt-3">
+            Inmediatamente después de confirmar tu pago con Webpay / Flow, recibirás en tu correo electrónico el enlace de acceso directo a Google Drive para descargar los archivos organizados por carpetas.
+          </div>
+        </details>
+
+        <details class="glass-card rounded-xl p-4 group cursor-pointer">
+          <summary class="font-bold text-sm text-white flex items-center justify-between list-none">
+            <span>¿Qué formatos incluyen las plantillas?</span>
+            <span class="text-indigo-400 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed border-t border-slate-700/60 pt-3">
+            La gran mayoría incluye archivos editables en formato <strong>PSD</strong> (Photoshop), <strong>PNG</strong> en alta resolución a 300 DPI con fondo transparente listos para imprimir, tipografías utilizadas y <strong>Mockups</strong> publicitarios sin marca de agua.
+          </div>
+        </details>
+
+        <details class="glass-card rounded-xl p-4 group cursor-pointer">
+          <summary class="font-bold text-sm text-white flex items-center justify-between list-none">
+            <span>¿Puedo pagar con CuentaRUT o transferencia bancaria?</span>
+            <span class="text-indigo-400 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed border-t border-slate-700/60 pt-3">
+            ¡Sí, por supuesto! A través de la pasarela Flow.cl puedes pagar con Redcompra, tarjeta de Débito, CuentaRUT de BancoEstado, Mach, Servipag y tarjetas de Crédito en cuotas.
+          </div>
+        </details>
+
+        <details class="glass-card rounded-xl p-4 group cursor-pointer">
+          <summary class="font-bold text-sm text-white flex items-center justify-between list-none">
+            <span>¿Puedo vender los tazones y poleras que estampe con estos diseños?</span>
+            <span class="text-indigo-400 group-open:rotate-180 transition-transform">▼</span>
+          </summary>
+          <div class="mt-3 text-xs text-slate-300 leading-relaxed border-t border-slate-700/60 pt-3">
+            ¡Sí! La compra te otorga licencia de uso comercial para elaborar y comercializar todos los productos físicos que desees (tazones, camisetas, botellas, cojines, etc.). Lo único no permitido es la reventa directa del archivo digital.
+          </div>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. Footer -->
+  <footer class="glass border-t border-slate-800 text-slate-400 text-xs py-12 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+      
+      <div class="col-span-1 md:col-span-2">
+        <span class="text-lg font-extrabold text-white block mb-2">
+          Sublima<span class="text-indigo-400">Pack</span> Chile
+        </span>
+        <p class="text-slate-400 text-xs leading-relaxed max-w-sm mb-4">
+          Tu proveedor de recursos gráficos, vectores y plantillas digitales de alta resolución para sublimación, estampado textil y diseño personalizado en todo Chile.
+        </p>
+        <p class="text-slate-500 text-[11px]">
+          Desarrollado para <a href="https://www.ukrabot.cl" class="text-indigo-400 hover:underline">ukrabot.cl</a> • Alojado en GitHub & Cloudflare Pages.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Medios de Pago Soportados</h4>
+        <div class="space-y-1.5 text-xs text-slate-400">
+          <p>• Webpay Plus (Redcompra / Débito)</p>
+          <p>• CuentaRUT BancoEstado</p>
+          <p>• Tarjetas de Crédito Visa / Mastercard</p>
+          <p>• Mach & Servipag</p>
+          <p class="text-[11px] text-emerald-400 font-semibold mt-2">✓ Pasarela oficial Flow.cl</p>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Atención & Ayuda</h4>
+        <div class="space-y-2 text-xs">
+          <p class="text-slate-300">¿Dudas con una plantilla o descarga?</p>
+          <a href="https://wa.me/56912345678" target="_blank" class="inline-flex items-center gap-1.5 text-emerald-400 font-semibold hover:underline">
+            <span>Contactar por WhatsApp</span> →
+          </a>
+          <p class="text-slate-400 mt-2">Email: soporte@ukrabot.cl</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 9. Slide-Over Carrito de Compras -->
+  <div id="cart-backdrop" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden transition-opacity"></div>
+  <aside 
+    id="cart-drawer" 
+    class="fixed top-0 right-0 h-full w-full max-w-md bg-slate-900 border-l border-slate-800 shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col">
+    
+    <!-- Header del Carrito -->
+    <div class="p-4 border-b border-slate-800 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <svg class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+        </svg>
+        <h3 class="text-base font-bold text-white">Tu Carrito de Diseños</h3>
+      </div>
+      <button id="close-cart-btn" class="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Lista de Artículos -->
+    <div id="cart-items-list" class="flex-1 overflow-y-auto p-4 space-y-3">
+      <!-- Generado por app.js -->
+    </div>
+
+    <!-- Cupón de Descuento -->
+    <div class="p-4 border-t border-slate-800 bg-slate-900/60">
+      <div class="flex gap-2">
+        <input 
+          type="text" 
+          id="coupon-input" 
+          placeholder="Código de descuento (ej: SUBLIMA10)" 
+          class="flex-1 bg-slate-800 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white uppercase placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+        />
+        <button 
+          id="apply-coupon-btn"
+          class="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-bold rounded-xl transition-all">
+          Aplicar
+        </button>
+      </div>
+    </div>
+
+    <!-- Resumen y Checkout -->
+    <div class="p-4 border-t border-slate-800 bg-slate-950/80 space-y-3">
+      <div class="flex justify-between text-xs text-slate-400">
+        <span>Subtotal:</span>
+        <span id="cart-subtotal" class="font-bold text-slate-200">$0 CLP</span>
+      </div>
+      <div id="cart-discount-row" class="hidden flex justify-between text-xs text-emerald-400">
+        <span>Descuento aplicado:</span>
+        <span id="cart-discount" class="font-bold">-$0 CLP</span>
+      </div>
+      <div class="flex justify-between items-baseline pt-2 border-t border-slate-800">
+        <span class="text-sm font-bold text-white">Total a Pagar:</span>
+        <span id="cart-total" class="text-xl font-extrabold text-white">$0 CLP</span>
+      </div>
+
+      <button 
+        id="checkout-btn" 
+        class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-white font-extrabold text-sm transition-all shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-2 active:scale-95">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+        </svg>
+        <span>Continuar al Pago Seguro</span>
+      </button>
+
+      <p class="text-[11px] text-center text-slate-500">
+        🔒 Transacción procesada de forma segura por Flow.cl
+      </p>
+    </div>
+
+  </aside>
+
+  <!-- 10. Modal Detalle de Producto -->
+  <div id="product-modal" class="fixed inset-0 bg-black/75 backdrop-blur-md z-50 hidden items-center justify-center p-4">
+    <div class="relative w-full max-w-3xl bg-slate-900 border border-slate-800 rounded-3xl shadow-2xl overflow-hidden max-h-[90vh] overflow-y-auto">
+      
+      <button 
+        id="close-modal-btn" 
+        class="absolute top-4 right-4 z-20 w-8 h-8 rounded-full bg-black/60 text-slate-300 hover:text-white flex items-center justify-center transition-colors">
+        ✕
+      </button>
+
+      <div id="modal-product-content">
+        <!-- Renderizado dinámicamente por app.js -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 11. Modal de Checkout (Datos del Comprador y Pago) -->
+  <div id="checkout-modal" class="fixed inset-0 bg-black/75 backdrop-blur-md z-50 hidden items-center justify-center p-4">
+    <div class="relative w-full max-w-lg bg-slate-900 border border-slate-800 rounded-3xl shadow-2xl p-6 overflow-hidden">
+      
+      <div class="flex items-center justify-between pb-4 border-b border-slate-800 mb-4">
+        <div>
+          <h3 class="text-lg font-bold text-white">Finalizar Compra</h3>
+          <p class="text-xs text-slate-400">Ingresa tus datos para recibir los enlaces de descarga directa</p>
+        </div>
+        <button id="close-checkout-modal-btn" class="text-slate-400 hover:text-white p-1">✕</button>
+      </div>
+
+      <div id="checkout-summary"></div>
+
+      <form id="checkout-form" class="space-y-4">
+        <div>
+          <label for="customer-name" class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">Nombre Completo *</label>
+          <input 
+            type="text" 
+            id="customer-name" 
+            required 
+            placeholder="Ej: Natalia Díaz" 
+            class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+          />
+        </div>
+
+        <div>
+          <label for="customer-email" class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">Correo Electrónico (Para recibir la descarga) *</label>
+          <input 
+            type="email" 
+            id="customer-email" 
+            required 
+            placeholder="Ej: tu-correo@gmail.com" 
+            class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+          />
+        </div>
+
+        <div>
+          <label for="customer-phone" class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">Teléfono / WhatsApp (Opcional)</label>
+          <input 
+            type="tel" 
+            id="customer-phone" 
+            placeholder="Ej: +56 9 1234 5678" 
+            class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+          />
+        </div>
+
+        <div class="pt-2">
+          <button 
+            type="submit" 
+            id="submit-order-btn"
+            class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-white font-extrabold text-sm transition-all shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-2 active:scale-95">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
+            </svg>
+            <span>Pagar con Flow (Webpay / Débito)</span>
+          </button>
+        </div>
+
+        <div class="text-[11px] text-center text-slate-400 pt-2 flex items-center justify-center gap-2">
+          <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+          </svg>
+          <span>Conexión cifrada SSL con Webpay Plus y Flow.cl</span>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- Contenedor de Notificaciones Toast -->
+  <div id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/flow.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
