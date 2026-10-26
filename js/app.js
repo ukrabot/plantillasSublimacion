@@ -165,16 +165,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       return `
         <article class="glass-card rounded-2xl overflow-hidden flex flex-col group relative">
-          <!-- Visual Mockup Banner -->
-          <div class="mockup-visual h-52 bg-slate-900 p-4 flex flex-col justify-between relative cursor-pointer open-details-btn overflow-hidden group" data-id="${product.id}">
+          <!-- Visual Mockup Banner (Portada clara sin filtros oscuros) -->
+          <div class="mockup-visual h-60 sm:h-64 bg-[#0a101d] p-3 flex flex-col justify-between relative cursor-pointer open-details-btn overflow-hidden group border-b border-slate-800/80" data-id="${product.id}">
             ${product.image ? `
               <img 
                 src="${product.image}" 
                 alt="${product.title}" 
-                class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 z-0 opacity-95"
-                loading="lazy"
+                class="absolute inset-0 w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-300 z-0 drop-shadow-md"
               />
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-black/20 to-black/60 z-10 pointer-events-none"></div>
             ` : `
               <div class="absolute inset-0 bg-gradient-to-br ${product.accent || 'from-indigo-600 to-purple-800'} opacity-90 z-0"></div>
               <div class="flex items-center justify-center my-auto z-0 transform group-hover:scale-105 transition-transform duration-300">
@@ -186,19 +184,13 @@ document.addEventListener("DOMContentLoaded", async () => {
               </div>
             `}
 
-            <div class="flex items-center justify-between z-20 relative">
-              <span class="text-xs font-bold tracking-wider bg-black/70 text-white px-2.5 py-1 rounded-full backdrop-blur-md border border-white/10">
+            <!-- Badges superiores flotantes -->
+            <div class="flex items-center justify-between z-20 relative w-full">
+              <span class="text-xs font-bold tracking-wider bg-black/80 text-white px-2.5 py-1 rounded-full backdrop-blur-md border border-white/10 shadow-sm">
                 ${product.code}
               </span>
               <span class="text-[11px] font-extrabold uppercase px-2.5 py-1 rounded-full bg-amber-400 text-amber-950 shadow-md">
                 ${product.badge || 'Pack Pro'}
-              </span>
-            </div>
-
-            <div class="flex items-center justify-between text-xs text-white z-20 relative font-medium drop-shadow-md">
-              <span class="bg-black/60 backdrop-blur-md px-2 py-0.5 rounded text-[11px] border border-white/10">${product.target}</span>
-              <span class="flex items-center gap-1 font-semibold bg-black/60 backdrop-blur-md px-2 py-0.5 rounded text-[11px] border border-white/10">
-                ★ ${product.rating} <span class="text-white/70 text-[10px]">(${product.reviewsCount})</span>
               </span>
             </div>
           </div>
@@ -206,7 +198,17 @@ document.addEventListener("DOMContentLoaded", async () => {
           <!-- Información y Precios -->
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
-              <div class="flex flex-wrap gap-1 mb-2">
+              <!-- Target y Calificación -->
+              <div class="flex items-center justify-between gap-2 mb-2">
+                <span class="text-[11px] font-semibold text-indigo-300 bg-indigo-950/70 border border-indigo-500/30 px-2.5 py-0.5 rounded-full">
+                  ${product.target}
+                </span>
+                <span class="flex items-center gap-1 font-bold text-amber-400 text-xs">
+                  ★ ${product.rating} <span class="text-slate-400 text-[10px] font-normal">(${product.reviewsCount})</span>
+                </span>
+              </div>
+
+              <div class="flex flex-wrap gap-1 mb-2.5">
                 ${formatsHTML}
               </div>
               <h3 class="text-base font-bold text-white mb-2 line-clamp-2 hover:text-indigo-300 cursor-pointer transition-colors open-details-btn" data-id="${product.id}">
@@ -278,14 +280,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     modalContent.innerHTML = `
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
         <!-- Mockup Visual de Gran Tamaño -->
-        <div class="rounded-2xl p-6 bg-slate-900 flex flex-col justify-between relative min-h-[340px] overflow-hidden border border-slate-700/60 shadow-xl">
+        <div class="rounded-2xl p-4 bg-[#0a101d] flex flex-col justify-between relative min-h-[380px] overflow-hidden border border-slate-700/60 shadow-xl">
           ${product.image ? `
-            <img 
-              src="${product.image}" 
-              alt="${product.title}" 
-              class="absolute inset-0 w-full h-full object-cover z-0"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-black/30 to-black/60 z-10 pointer-events-none"></div>
+            <div class="relative w-full h-72 sm:h-80 flex items-center justify-center my-auto">
+              <img 
+                src="${product.image}" 
+                alt="${product.title}" 
+                class="max-w-full max-h-full object-contain rounded-xl drop-shadow-2xl z-0"
+              />
+            </div>
           ` : `
             <div class="absolute inset-0 bg-gradient-to-br ${product.accent || 'from-indigo-600 to-purple-800'} z-0"></div>
             <div class="text-center my-8 z-10">
