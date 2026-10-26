@@ -90,7 +90,8 @@
         "profesores"
       ],
       "accent": "from-blue-600 to-indigo-800",
-      "icon": "briefcase"
+      "icon": "briefcase",
+      "image": "assets/mockups/mockup_pack_052_profesiones.jpg"
     },
     {
       "id": "pack-053-etiquetas-escolares",
@@ -126,7 +127,8 @@
         "cuadernos"
       ],
       "accent": "from-amber-500 to-orange-600",
-      "icon": "tag"
+      "icon": "tag",
+      "image": "assets/mockups/mockup_pack_070_pascua.jpg"
     },
     {
       "id": "pack-054-futbol-chile-retro",
@@ -162,7 +164,8 @@
         "deportes"
       ],
       "accent": "from-red-600 to-red-900",
-      "icon": "trophy"
+      "icon": "trophy",
+      "image": "assets/mockups/mockup_pack_054_futbol.jpg"
     },
     {
       "id": "pack-055-poleras-frases-cristianas",
@@ -199,7 +202,8 @@
         "textil"
       ],
       "accent": "from-emerald-600 to-teal-800",
-      "icon": "shirt"
+      "icon": "shirt",
+      "image": "assets/mockups/mockup_pack_085_trabajador.jpg"
     },
     {
       "id": "pack-056-avengers-marvel",
@@ -234,7 +238,8 @@
         "cine"
       ],
       "accent": "from-purple-600 to-indigo-900",
-      "icon": "shield"
+      "icon": "shield",
+      "image": "assets/mockups/mockup_pack_056_avengers.jpg"
     },
     {
       "id": "pack-057-paw-patrol",
@@ -270,7 +275,8 @@
         "animados"
       ],
       "accent": "from-sky-500 to-blue-700",
-      "icon": "sparkles"
+      "icon": "sparkles",
+      "image": "assets/mockups/mockup_pack_057_pawpatrol.jpg"
     },
     {
       "id": "pack-058-razas-perritos",
@@ -305,7 +311,8 @@
         "animales"
       ],
       "accent": "from-amber-600 to-yellow-800",
-      "icon": "heart"
+      "icon": "heart",
+      "image": "assets/mockups/mockup_pack_058_perritos.jpg"
     },
     {
       "id": "pack-059-poleras-superheroes",
@@ -339,7 +346,8 @@
         "estampado"
       ],
       "accent": "from-cyan-600 to-blue-800",
-      "icon": "shirt"
+      "icon": "shirt",
+      "image": "assets/mockups/mockup_pack_112_superheroes_villanos.jpg"
     },
     {
       "id": "pack-060-poleras-superheroes-kids",
@@ -373,7 +381,8 @@
         "chibi"
       ],
       "accent": "from-pink-500 to-rose-700",
-      "icon": "smile"
+      "icon": "smile",
+      "image": "assets/mockups/mockup_pack_057_pawpatrol.jpg"
     },
     {
       "id": "pack-061-signos-del-zodiaco",
@@ -407,7 +416,8 @@
         "tazas"
       ],
       "accent": "from-violet-600 to-purple-900",
-      "icon": "moon"
+      "icon": "moon",
+      "image": "assets/mockups/mockup_pack_061_zodiaco.jpg"
     },
     {
       "id": "pack-062-the-walking-dead",
@@ -441,7 +451,8 @@
         "tazas"
       ],
       "accent": "from-zinc-700 to-stone-900",
-      "icon": "skull"
+      "icon": "skull",
+      "image": "assets/mockups/mockup_pack_062_walking_dead.jpg"
     },
     {
       "id": "pack-063-dia-del-padre-tazas",
@@ -477,7 +488,8 @@
         "editables"
       ],
       "accent": "from-blue-700 to-slate-900",
-      "icon": "award"
+      "icon": "award",
+      "image": "assets/mockups/mockup_pack_063_padre.jpg"
     },
     {
       "id": "pack-064-poleras-dia-del-padre",
@@ -511,7 +523,8 @@
         "textil"
       ],
       "accent": "from-cyan-700 to-blue-900",
-      "icon": "users"
+      "icon": "users",
+      "image": "assets/mockups/mockup_pack_063_padre.jpg"
     },
     {
       "id": "pack-065-cumpleanos-festivo",
@@ -544,7 +557,8 @@
         "recuerdos"
       ],
       "accent": "from-yellow-600 to-amber-700",
-      "icon": "gift"
+      "icon": "gift",
+      "image": "assets/mockups/mockup_pack_084_infantiles.jpg"
     },
     {
       "id": "pack-066-dia-de-la-madre-premium",
@@ -579,7 +593,8 @@
         "collage"
       ],
       "accent": "from-rose-500 to-pink-700",
-      "icon": "heart"
+      "icon": "heart",
+      "image": "assets/mockups/mockup_pack_066_madre.jpg"
     },
     {
       "id": "pack-067-caballeros-del-zodiaco",
@@ -612,7 +627,8 @@
         "tazas"
       ],
       "accent": "from-yellow-500 to-orange-700",
-      "icon": "zap"
+      "icon": "zap",
+      "image": "assets/mockups/mockup_pack_067_saint_seiya.jpg"
     },
     {
       "id": "pack-068-princesas-pets",
@@ -646,7 +662,8 @@
         "tazas"
       ],
       "accent": "from-fuchsia-500 to-pink-600",
-      "icon": "crown"
+      "icon": "crown",
+      "image": "assets/mockups/mockup_pack_058_perritos.jpg"
     },
     {
       "id": "pack-069-madres-collage-editables",
@@ -680,7 +697,8 @@
         "fotos"
       ],
       "accent": "from-rose-600 to-purple-700",
-      "icon": "image"
+      "icon": "image",
+      "image": "assets/mockups/mockup_pack_066_madre.jpg"
     },
     {
       "id": "pack-070-conejo-pascua",
@@ -714,7 +732,8 @@
         "infantil"
       ],
       "accent": "from-teal-400 to-emerald-600",
-      "icon": "egg"
+      "icon": "egg",
+      "image": "assets/mockups/mockup_pack_070_pascua.jpg"
     },
     {
       "id": "pack-071-duendes-magicos",
@@ -749,7 +768,8 @@
         "infantil"
       ],
       "accent": "from-red-600 to-green-700",
-      "icon": "sparkles"
+      "icon": "sparkles",
+      "image": "assets/mockups/mockup_pack_071_duendes_magicos.jpg"
     },
     {
       "id": "pack-082-dia-de-la-madre-floral",
@@ -783,7 +803,8 @@
         "elegante"
       ],
       "accent": "from-pink-600 to-purple-800",
-      "icon": "heart"
+      "icon": "heart",
+      "image": "assets/mockups/mockup_pack_066_madre.jpg"
     },
     {
       "id": "pack-084-personajes-infantiles",
@@ -818,7 +839,8 @@
         "botellas"
       ],
       "accent": "from-sky-500 to-indigo-600",
-      "icon": "film"
+      "icon": "film",
+      "image": "assets/mockups/mockup_pack_084_infantiles.jpg"
     },
     {
       "id": "pack-085-dia-del-hombre-trabajador",
@@ -851,7 +873,8 @@
         "tazas"
       ],
       "accent": "from-amber-800 to-stone-900",
-      "icon": "coffee"
+      "icon": "coffee",
+      "image": "assets/mockups/mockup_pack_085_trabajador.jpg"
     },
     {
       "id": "pack-086-aqui-toma-el-mejor-papa",
@@ -884,7 +907,8 @@
         "regalos"
       ],
       "accent": "from-amber-700 to-stone-800",
-      "icon": "coffee"
+      "icon": "coffee",
+      "image": "assets/mockups/mockup_pack_063_padre.jpg"
     },
     {
       "id": "pack-087-capitana-marvel-heroinas",
@@ -917,7 +941,8 @@
         "cine"
       ],
       "accent": "from-red-600 to-yellow-500",
-      "icon": "shield"
+      "icon": "shield",
+      "image": "assets/mockups/mockup_pack_056_avengers.jpg"
     },
     {
       "id": "pack-088-madre-eres-mi-vida",
@@ -951,7 +976,8 @@
         "emotivo"
       ],
       "accent": "from-pink-500 to-rose-800",
-      "icon": "heart"
+      "icon": "heart",
+      "image": "assets/mockups/mockup_pack_066_madre.jpg"
     },
     {
       "id": "pack-089-motivacion-fitness-gym",
@@ -985,7 +1011,8 @@
         "tazas"
       ],
       "accent": "from-lime-600 to-zinc-900",
-      "icon": "activity"
+      "icon": "activity",
+      "image": "assets/mockups/mockup_pack_089_fitness.jpg"
     },
     {
       "id": "pack-090-dia-de-la-madre-frases",
@@ -1019,7 +1046,8 @@
         "tazas"
       ],
       "accent": "from-purple-500 to-rose-600",
-      "icon": "type"
+      "icon": "type",
+      "image": "assets/mockups/mockup_pack_066_madre.jpg"
     },
     {
       "id": "pack-105-star-wars-galactica",
@@ -1053,7 +1081,8 @@
         "tazas"
       ],
       "accent": "from-neutral-900 to-red-950",
-      "icon": "compass"
+      "icon": "compass",
+      "image": "assets/mockups/mockup_pack_105_starwars.jpg"
     },
     {
       "id": "pack-106-supercampeones-tsubasa",
@@ -1087,7 +1116,8 @@
         "tazas"
       ],
       "accent": "from-blue-600 to-red-600",
-      "icon": "circle"
+      "icon": "circle",
+      "image": "assets/mockups/mockup_pack_106_supercampeones.jpg"
     },
     {
       "id": "pack-107-series-de-culto",
@@ -1121,7 +1151,8 @@
         "tazas"
       ],
       "accent": "from-amber-800 to-slate-900",
-      "icon": "tv"
+      "icon": "tv",
+      "image": "assets/mockups/mockup_pack_107_series.jpg"
     },
     {
       "id": "pack-108-street-fighter-retro",
@@ -1155,7 +1186,8 @@
         "tazas"
       ],
       "accent": "from-red-600 to-yellow-600",
-      "icon": "gamepad-2"
+      "icon": "gamepad-2",
+      "image": "assets/mockups/mockup_pack_108_street_fighter.jpg"
     },
     {
       "id": "pack-109-pokemon-kanto",
@@ -1189,7 +1221,8 @@
         "tazas"
       ],
       "accent": "from-yellow-400 to-red-500",
-      "icon": "target"
+      "icon": "target",
+      "image": "assets/mockups/mockup_pack_109_pokemon.jpg"
     },
     {
       "id": "pack-110-final-fantasy-rpg",
@@ -1223,7 +1256,8 @@
         "tazas"
       ],
       "accent": "from-cyan-800 to-slate-950",
-      "icon": "sword"
+      "icon": "sword",
+      "image": "assets/mockups/mockup_pack_110_finalfantasy.jpg"
     },
     {
       "id": "pack-111-videojuegos-clasicos-modernos",
@@ -1259,7 +1293,8 @@
         "tazas"
       ],
       "accent": "from-emerald-600 to-green-950",
-      "icon": "gamepad"
+      "icon": "gamepad",
+      "image": "assets/mockups/mockup_pack_111_videojuegos.jpg"
     },
     {
       "id": "pack-112-superheroes-villanos-dc-marvel",
@@ -1294,7 +1329,8 @@
         "tazas"
       ],
       "accent": "from-slate-900 to-purple-950",
-      "icon": "mask"
+      "icon": "mask",
+      "image": "assets/mockups/mockup_pack_112_superheroes_villanos.jpg"
     },
     {
       "id": "pack-113-rock-leyendas-musica",
@@ -1329,7 +1365,8 @@
         "tazas"
       ],
       "accent": "from-zinc-900 to-red-950",
-      "icon": "music"
+      "icon": "music",
+      "image": "assets/mockups/mockup_pack_113_rock.jpg"
     }
   ]
 }

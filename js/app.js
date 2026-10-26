@@ -166,9 +166,28 @@ document.addEventListener("DOMContentLoaded", async () => {
       return `
         <article class="glass-card rounded-2xl overflow-hidden flex flex-col group relative">
           <!-- Visual Mockup Banner -->
-          <div class="mockup-visual h-48 bg-gradient-to-br ${product.accent || 'from-indigo-600 to-purple-800'} p-4 flex flex-col justify-between relative cursor-pointer open-details-btn" data-id="${product.id}">
-            <div class="flex items-center justify-between z-10">
-              <span class="text-xs font-bold tracking-wider bg-black/50 text-white px-2.5 py-1 rounded-full backdrop-blur-md">
+          <div class="mockup-visual h-52 bg-slate-900 p-4 flex flex-col justify-between relative cursor-pointer open-details-btn overflow-hidden group" data-id="${product.id}">
+            ${product.image ? `
+              <img 
+                src="${product.image}" 
+                alt="${product.title}" 
+                class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 z-0 opacity-95"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-black/20 to-black/60 z-10 pointer-events-none"></div>
+            ` : `
+              <div class="absolute inset-0 bg-gradient-to-br ${product.accent || 'from-indigo-600 to-purple-800'} opacity-90 z-0"></div>
+              <div class="flex items-center justify-center my-auto z-0 transform group-hover:scale-105 transition-transform duration-300">
+                <div class="w-24 h-24 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center shadow-inner">
+                  <svg class="w-12 h-12 text-white/90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                  </svg>
+                </div>
+              </div>
+            `}
+
+            <div class="flex items-center justify-between z-20 relative">
+              <span class="text-xs font-bold tracking-wider bg-black/70 text-white px-2.5 py-1 rounded-full backdrop-blur-md border border-white/10">
                 ${product.code}
               </span>
               <span class="text-[11px] font-extrabold uppercase px-2.5 py-1 rounded-full bg-amber-400 text-amber-950 shadow-md">
@@ -176,19 +195,10 @@ document.addEventListener("DOMContentLoaded", async () => {
               </span>
             </div>
 
-            <!-- Silueta decorativa de Producto (Taza / Textil) -->
-            <div class="flex items-center justify-center my-auto z-0 transform group-hover:scale-105 transition-transform duration-300">
-              <div class="w-24 h-24 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center shadow-inner">
-                <svg class="w-12 h-12 text-white/90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                </svg>
-              </div>
-            </div>
-
-            <div class="flex items-center justify-between text-xs text-white/80 z-10">
-              <span>${product.target}</span>
-              <span class="flex items-center gap-1 font-semibold">
-                ★ ${product.rating} <span class="text-white/60 text-[10px]">(${product.reviewsCount})</span>
+            <div class="flex items-center justify-between text-xs text-white z-20 relative font-medium drop-shadow-md">
+              <span class="bg-black/60 backdrop-blur-md px-2 py-0.5 rounded text-[11px] border border-white/10">${product.target}</span>
+              <span class="flex items-center gap-1 font-semibold bg-black/60 backdrop-blur-md px-2 py-0.5 rounded text-[11px] border border-white/10">
+                ★ ${product.rating} <span class="text-white/70 text-[10px]">(${product.reviewsCount})</span>
               </span>
             </div>
           </div>
@@ -268,28 +278,41 @@ document.addEventListener("DOMContentLoaded", async () => {
     modalContent.innerHTML = `
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
         <!-- Mockup Visual de Gran Tamaño -->
-        <div class="rounded-2xl p-6 bg-gradient-to-br ${product.accent || 'from-indigo-600 to-purple-800'} flex flex-col justify-between relative min-h-[300px]">
-          <div class="flex items-center justify-between">
-            <span class="text-sm font-bold bg-black/60 px-3 py-1 rounded-full text-white backdrop-blur-md">
+        <div class="rounded-2xl p-6 bg-slate-900 flex flex-col justify-between relative min-h-[340px] overflow-hidden border border-slate-700/60 shadow-xl">
+          ${product.image ? `
+            <img 
+              src="${product.image}" 
+              alt="${product.title}" 
+              class="absolute inset-0 w-full h-full object-cover z-0"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-black/30 to-black/60 z-10 pointer-events-none"></div>
+          ` : `
+            <div class="absolute inset-0 bg-gradient-to-br ${product.accent || 'from-indigo-600 to-purple-800'} z-0"></div>
+            <div class="text-center my-8 z-10">
+              <div class="w-32 h-32 mx-auto rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center shadow-2xl mb-4">
+                <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                </svg>
+              </div>
+              <p class="text-xs font-medium text-white/80 tracking-widest uppercase">Muestra Visual del Pack</p>
+            </div>
+          `}
+
+          <div class="flex items-center justify-between z-20 relative">
+            <span class="text-sm font-bold bg-black/75 px-3 py-1 rounded-full text-white backdrop-blur-md border border-white/10">
               Código: ${product.code}
             </span>
-            <span class="text-xs font-extrabold uppercase px-3 py-1 rounded-full bg-amber-400 text-amber-950">
+            <span class="text-xs font-extrabold uppercase px-3 py-1 rounded-full bg-amber-400 text-amber-950 shadow-md">
               ${product.badge}
             </span>
           </div>
 
-          <div class="text-center my-8">
-            <div class="w-32 h-32 mx-auto rounded-full bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center shadow-2xl mb-4">
-              <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-              </svg>
-            </div>
-            <p class="text-xs font-medium text-white/80 tracking-widest uppercase">Muestra Visual del Pack</p>
-          </div>
-
-          <div class="bg-black/40 backdrop-blur-md rounded-xl p-3 text-xs text-slate-200">
-            <p class="font-semibold text-white mb-1">Compatibilidad de Software:</p>
-            <p class="text-slate-300">Adobe Photoshop, Illustrator, CorelDraw, Photopea (Gratis), Cricut Design Space.</p>
+          <div class="bg-black/80 backdrop-blur-md rounded-xl p-3.5 text-xs text-slate-200 z-20 relative border border-white/10 mt-auto">
+            <p class="font-semibold text-white mb-1 flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Compatibilidad Comprobada:</span>
+            </p>
+            <p class="text-slate-300 text-[11px] leading-relaxed">Adobe Photoshop, Illustrator, CorelDraw, Photopea (Gratis en navegador), Cricut Design Space.</p>
           </div>
         </div>
 
@@ -424,6 +447,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         price: product.price,
         target: product.target,
         accent: product.accent,
+        image: product.image || null,
         quantity: 1
       });
     }
@@ -490,8 +514,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     } else {
       elements.cartItemsList.innerHTML = state.cart.map(item => `
         <div class="flex items-center gap-3 p-3 bg-slate-800/60 rounded-xl border border-slate-700/50">
-          <div class="w-12 h-12 rounded-lg bg-gradient-to-br ${item.accent || 'from-indigo-600 to-purple-800'} flex items-center justify-center shrink-0 text-white font-bold text-xs">
-            ${item.code}
+          <div class="w-12 h-12 rounded-lg overflow-hidden shrink-0 relative border border-slate-700 bg-slate-800 flex items-center justify-center">
+            ${item.image ? `
+              <img src="${item.image}" alt="${item.code}" class="w-full h-full object-cover" />
+            ` : `
+              <div class="w-full h-full bg-gradient-to-br ${item.accent || 'from-indigo-600 to-purple-800'} flex items-center justify-center text-white font-bold text-xs">
+                ${item.code}
+              </div>
+            `}
           </div>
           <div class="flex-1 min-w-0">
             <h4 class="text-xs font-bold text-white truncate">${item.title}</h4>
